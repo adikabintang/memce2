@@ -32,6 +32,7 @@
 #include "dht22.h"
 
 //BMP180: SCL ke B10, SDA ke B11
+//Tx ke A9
 
 uint32_t timeStamp = 0;
 uint32_t lastDHT22update = 0;

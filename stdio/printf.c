@@ -21,6 +21,7 @@ void PrintChar(char c)
 	   while(Transfer not completed);
 	   Transmit a char;
 	*/	
+	SH_SendChar(c);
 }
 
 /** Maximum string size allowed (in bytes). */

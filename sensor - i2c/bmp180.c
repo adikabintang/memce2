@@ -1,15 +1,12 @@
-/**
- * taken from https://github.com/ppkt
- */
 #include "bmp180.h"
 #include "math.h"
 #include "stdio.h"
 #include "inttypes.h"
 #include "utils.h"
 
-/* Buffer of data to be received by I2C1 */
+/* Buffer of data to be received by I2C2 */
 uint8_t Buffer_Rx1[22];
-/* Buffer of data to be transmitted by I2C1 */
+/* Buffer of data to be transmitted by I2C2 */
 uint8_t Buffer_Tx1[2] = {0xAA};
 
 // Get delay (in ms), depending on sampling mode
@@ -31,8 +28,8 @@ inline u8 bmp180_get_delay(BMP180_Mode mode) {
 // 0. Check presence of BMP180 in I2C bus
 bool bmp180_check_presence() {
 	Buffer_Tx1[0] = 0xD0; // Address of device
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
-	I2C_Master_BufferRead(I2C1, Buffer_Rx1, 1, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferRead(I2C2, Buffer_Rx1, 1, Polling, BMP180_ADDRESS << 1);
 
 	if (Buffer_Rx1[0] == BMP180_CHIP_ID) {
 		return true;
@@ -44,8 +41,8 @@ bool bmp180_check_presence() {
 // 1. Fetch calibration data
 void bmp180_get_calibration_data(CalibrationData *c) {
 	Buffer_Tx1[0] = 0xAA; // Begin of calibration data, 22 bytes length
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
-	I2C_Master_BufferRead(I2C1, Buffer_Rx1, 22, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferRead(I2C2, Buffer_Rx1, 22, Polling, BMP180_ADDRESS << 1);
 
 	c->AC1 = Buffer_Rx1[0] << 8 | Buffer_Rx1[1];
 	c->AC2 = Buffer_Rx1[2] << 8 | Buffer_Rx1[3];
@@ -64,14 +61,14 @@ void bmp180_get_calibration_data(CalibrationData *c) {
 void bmp180_get_uncompensated_temperature(CalibrationData* data) {
 	Buffer_Tx1[0] = 0xF4; // Register to write
 	Buffer_Tx1[1] = 0x2E; // Value to write (measure temperature)
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 2, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 2, Polling, BMP180_ADDRESS << 1);
 
 	delay(5 /*ms*/);
 
 	// Read two bytes
 	Buffer_Tx1[0] = 0xF6; // Register to read (temperature)
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
-	I2C_Master_BufferRead(I2C1, Buffer_Rx1, 2, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferRead(I2C2, Buffer_Rx1, 2, Polling, BMP180_ADDRESS << 1);
 	data->UT = Buffer_Rx1[0] << 8 | Buffer_Rx1[1];
 }
 
@@ -79,15 +76,15 @@ void bmp180_get_uncompensated_temperature(CalibrationData* data) {
 void bmp180_get_uncompensated_pressure(CalibrationData* data) {
 	Buffer_Tx1[0] = 0xF4; // Register to write
 	Buffer_Tx1[1] = 0x34 | (data->oss << 6); // Value to write (measure pressure)
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 2, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 2, Polling, BMP180_ADDRESS << 1);
 
 	// Wait for reading
 	delay(bmp180_get_delay(data->oss));
 
 	// Read two bytes
 	Buffer_Tx1[0] = 0xF6; // Register to read (pressure)
-	I2C_Master_BufferWrite(I2C1, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
-	I2C_Master_BufferRead(I2C1, Buffer_Rx1, 3, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferWrite(I2C2, Buffer_Tx1, 1, Polling, BMP180_ADDRESS << 1);
+	I2C_Master_BufferRead(I2C2, Buffer_Rx1, 3, Polling, BMP180_ADDRESS << 1);
 	data->UP = (Buffer_Rx1[0] << 16 | Buffer_Rx1[1] << 8 | Buffer_Rx1[2]) >> (8 - data->oss);
 }
 
@@ -103,7 +100,7 @@ void bmp180_calculate_true_temperature(CalibrationData* data) {
 }
 
 // 5. Using calibration data and real temperature, get real pressure
-long bmp180_calculate_true_pressure(CalibrationData *data) {
+void bmp180_calculate_true_pressure(CalibrationData *data) {
 	data->B6 = data->B5 - 4000;
 
 	data->X1 = (data->B2 * (data->B6 * data->B6) >> 12) >> 11;
@@ -130,13 +127,13 @@ long bmp180_calculate_true_pressure(CalibrationData *data) {
 	data->p = data->p + ((data->X1 + data->X2 + 3791) >> 4);
 
 	printf("p = %d Pa\n\r", data->p);
-	return data->p;
 }
 
 // 6. Convert real pressure to absolute altitude
 void bmp180_get_absolute_altitude(CalibrationData *data) {
 	// x^y -> exp(y * log(x))
-	float b = expf(1.0/5.255 * logf(data->p / 101325.0));
+	//float b = expf(1.0/5.255 * logf(data->p / 101325.0));
+	float b = 0;
 	float f = 44330 * (1 - b);
 	printf("altitude = %d\n\r", (int)f);
 

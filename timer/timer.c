@@ -50,38 +50,19 @@ void TIM2_IRQHandler()
         rpm = (int)selisih/50 * 60;
         speed = 2 * 3.14 * 6 * 0.00001 * 60 * rpm;
         last_encoder = encoder;
-        printf("\tencoder: %d, rpm: %d, speed: %d\n", encoder, rpm, speed);
+        //printf("\tencoder: %d, rpm: %d, speed: %d\n", encoder, rpm, speed);
         encoder = 0;
         detik++;
-        if (detik == 60 && menit != 10) {
+
+        if (detik == 3 && menit != 10) {
         	menit++;
-        	detik = 0;
+
+        	printf("detik: %d\n\r", detik);
+
         }
 
-        if (menit >= 10) {
-        	//do something...
-        	//collect data & send, abis itu baru menit = 0
-        	collectAndSend();
-        	detik = 0;
-        	menit = 0;
-        }
+
     }
-}
-
-void collectAndSend() {
-	uint8_t suhu;
-	uint16_t hujan, kelembaban, cahaya, angin, tekanan;
-	CalibrationData data;
-	data.oss = 3;
-
-	suhu = read_adc(ADC_Channel_1);
-	hujan = read_adc(ADC_Channel_2);
-	kelembaban = read_adc(ADC_Channel_3);
-	cahaya = read_adc(ADC_Channel_4);
-	angin = speed;
-	tekanan = bmp180_calculate_true_pressure(&data);
-	delayAbisI2C();
-	sendData(suhu, kelembaban, angin, tekanan, cahaya, hujan);
 }
 
 void delayAbisI2C() {

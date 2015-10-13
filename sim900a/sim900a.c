@@ -106,7 +106,7 @@ void sendSMS() {
 }
 
 void sendData(int suhu, int kelembaban, int kecAngin, int tekanan, int cahaya, int hujan) {
-	char url[420] = "AT+HTTPPARA=\"URL\",\"http://c146ec43.ngrok.io/memce2-web/web/index.php/location/getsuhu?suhu=";
+	char url[420] = "AT+HTTPPARA=\"URL\",\"http://782fd980.ngrok.io/memce2-web/web/index.php/location/getsuhu?suhu=";
 	char danKelembaban[14] = "&kelembaban=";
 	char danKecAngin[12] = "&kecAngin=";
 	char danTekanan[12] = "&tekanan=";

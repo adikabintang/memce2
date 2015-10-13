@@ -1,6 +1,3 @@
-/**
- * taken from https://github.com/ppkt
- */
 #ifndef __BMP180_H__
 #define __BMP180_H__
 #include "i2c_dma.h"
@@ -52,7 +49,7 @@ void bmp180_get_calibration_data(CalibrationData* data);
 void bmp180_get_uncompensated_temperature(CalibrationData* data);
 void bmp180_get_uncompensated_pressure(CalibrationData* data);
 void bmp180_calculate_true_temperature(CalibrationData* data);
-long bmp180_calculate_true_pressure(CalibrationData* data);
+void bmp180_calculate_true_pressure(CalibrationData* data);
 void bmp180_get_absolute_altitude(CalibrationData* data);
 
 #endif // __BMP180_H__

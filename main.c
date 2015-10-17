@@ -82,9 +82,12 @@ int main(void)
 	I2C_LowLevel_Init(I2C2);
 	initExti();
 	SIM900A_init();
+	initDeteksiSIM800L();
 	Configure_HSI_Clock();
 	Init_Time(MILLISEC,64);
 	DHT22_Init();
+
+	turnOffSIM800L();
 
 	// Tick every 1 ms
 	if (SysTick_Config(SystemCoreClock / 1000))  while (1);
@@ -99,13 +102,16 @@ int main(void)
     while(1)
     {
 
+    	i = read_adc(ADC_Channel_5); //malem > 3490
+    	printf("%d\n", i);
+    	for (i = 0; i < 999999; i++);
     	if (menit >= 1) {
     	    //do something...
     	     	//collect data & send, abis itu baru menit = 0
     	        	//collectAndSend();
     		printf("kepanggil\n\r");
 
-    		collectAndSend();
+    		//collectAndSend();
     		detik = 0;
     	    menit = 0;
     	}
@@ -115,27 +121,31 @@ int main(void)
 
 void collectAndSend() {
 	uint8_t suhu;
-	uint16_t hujan, cahaya, angin;
-	lastDHT22update = Millis();
-	DHT22_Start_Read(&Current_DHT22_Reading);
-	printf("%d\n\r", (int)Current_DHT22_Reading.Humid);
-	CalibrationData data;
-	data.oss = 3;
-	bmp180_get_calibration_data(&data);
-	bmp180_get_uncompensated_temperature(&data);
-	bmp180_get_uncompensated_pressure(&data);
-	bmp180_calculate_true_temperature(&data);
-	bmp180_calculate_true_pressure(&data);
-	bmp180_get_absolute_altitude(&data);
+	uint16_t hujan, cahaya, angin, batteryMikon;
+	batteryMikon = read_adc(ADC_Channel_4);
+	cahaya = read_adc(ADC_Channel_5);//malem > 3490
+	if (batteryMikon > 3965) {//bates batre udah 3.7v
+		lastDHT22update = Millis();
+		DHT22_Start_Read(&Current_DHT22_Reading);
+		printf("%d\n\r", (int)Current_DHT22_Reading.Humid);
+		CalibrationData data;
+		data.oss = 3;
+		bmp180_get_calibration_data(&data);
+		bmp180_get_uncompensated_temperature(&data);
+		bmp180_get_uncompensated_pressure(&data);
+		bmp180_calculate_true_temperature(&data);
+		bmp180_calculate_true_pressure(&data);
+		bmp180_get_absolute_altitude(&data);
 
-	suhu = data.T / 10;
-	hujan = read_adc(ADC_Channel_2);
-	cahaya = read_adc(ADC_Channel_4);
-	angin = speed;
-
-
-	//sendData(suhu, kelembaban, angin, data.p, cahaya, hujan);
-
+		suhu = data.T / 10;
+		hujan = read_adc(ADC_Channel_6);
+		angin = speed;
+		turnOnSIM800L();
+		if (getBatteryPercentageSIM() > 88) {
+			sendData(suhu, (int)Current_DHT22_Reading.Humid, angin, data.p, cahaya, hujan);
+		}
+		turnOffSIM800L();
+	}
 }
 
 /*

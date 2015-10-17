@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.8.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=memce2-aws.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\memce2-aws -TC:\CooCox\CoIDE\configuration\ProgramData\memce2-aws/arm-gcc-link.ld -g">
-      <target file="memce2-aws.elf" lastModified="1506306c4b4">
-         <source file="..\obj\stm32f10x_rtc.o" lastModified="1506306b3bc"/>
-         <source file="..\obj\semihosting.o" lastModified="1506306b438"/>
-         <source file="..\obj\stm32f10x_tim.o" lastModified="1506306b53f"/>
-         <source file="..\obj\timer.o" lastModified="1506306b5f4"/>
-         <source file="..\obj\i2c_dma.o" lastModified="1506306b685"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="1506306b6de"/>
-         <source file="..\obj\bmp180.o" lastModified="1506306b767"/>
-         <source file="..\obj\stm32f10x_pwr.o" lastModified="1506306b7c4"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1506306b80d"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="1506306b87c"/>
-         <source file="..\obj\main.o" lastModified="1506306ba20"/>
-         <source file="..\obj\utils.o" lastModified="1506306ba7c"/>
-         <source file="..\obj\printf.o" lastModified="1506306baf2"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="1506306bb84"/>
-         <source file="..\obj\stm32f10x_exti.o" lastModified="1506306bbf7"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="1506306bc88"/>
-         <source file="..\obj\sim900a.o" lastModified="1506306be1c"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="1506306bead"/>
-         <source file="..\obj\sh_cmd.o" lastModified="1506306bebb"/>
-         <source file="..\obj\syscalls.o" lastModified="1506306bf19"/>
-         <source file="..\obj\exti.o" lastModified="1506306bf74"/>
-         <source file="..\obj\stm32f10x_flash.o" lastModified="1506306bfe9"/>
-         <source file="..\obj\adc.o" lastModified="1506306c033"/>
-         <source file="..\obj\stm32f10x_dma.o" lastModified="1506306c08a"/>
-         <source file="..\obj\mytime.o" lastModified="1506306c0d6"/>
-         <source file="..\obj\dht22.o" lastModified="1506306c1cb"/>
-         <source file="..\obj\misc.o" lastModified="1506306c223"/>
-         <source file="..\obj\stm32f10x_i2c.o" lastModified="1506306c2ac"/>
+      <target file="memce2-aws.elf" lastModified="15076459adb">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="150764585a8"/>
+         <source file="..\obj\semihosting.o" lastModified="15076458628"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1507645877b"/>
+         <source file="..\obj\timer.o" lastModified="1507645881f"/>
+         <source file="..\obj\i2c_dma.o" lastModified="150764588c8"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15076458935"/>
+         <source file="..\obj\bmp180.o" lastModified="15076458a88"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="15076458afe"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15076458b3e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15076458bc4"/>
+         <source file="..\obj\main.o" lastModified="15076458d46"/>
+         <source file="..\obj\utils.o" lastModified="15076458dce"/>
+         <source file="..\obj\printf.o" lastModified="15076458e71"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15076458f35"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="15076458fab"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15076459050"/>
+         <source file="..\obj\sim900a.o" lastModified="15076459348"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="150764593ef"/>
+         <source file="..\obj\sh_cmd.o" lastModified="150764593fe"/>
+         <source file="..\obj\syscalls.o" lastModified="1507645947f"/>
+         <source file="..\obj\exti.o" lastModified="150764594ff"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="1507645959f"/>
+         <source file="..\obj\adc.o" lastModified="150764595fd"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1507645966e"/>
+         <source file="..\obj\mytime.o" lastModified="150764596c5"/>
+         <source file="..\obj\dht22.o" lastModified="150764597a3"/>
+         <source file="..\obj\misc.o" lastModified="15076459813"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="150764598bf"/>
       </target>
    </processor>
 </history>

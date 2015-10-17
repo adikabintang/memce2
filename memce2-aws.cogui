@@ -28,18 +28,17 @@
 <part id="9"/>
 <part id="10"/>
 <part id="11"/>
-<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/main.c" title="main.c" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/main.c" title="main.c" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3933" selectionTopPixel="1798"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2675" selectionTopPixel="1048"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sim900a.h" partName="sim900a.h" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.h" title="sim900a.h" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.h" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="sim900a.h" partName="sim900a.h" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.h" title="sim900a.h" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/inc/sim900a.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="511" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="337" selectionTopPixel="58"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.h" partName="bmp180.h" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - i2c/bmp180.h" title="bmp180.h" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - i2c/bmp180.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/inc/bmp180.h"/>
@@ -59,19 +58,15 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="sim900a.c" partName="sim900a.c" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.c" title="sim900a.c" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sim900a/sim900a.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/src/sim900a.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3495" selectionTopPixel="1305"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7723" selectionTopPixel="3643"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.h" partName="stm32f10x_adc.h" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/stm_lib/inc/stm32f10x_adc.h" title="stm32f10x_adc.h" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/stm_lib/inc/stm32f10x_adc.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/inc/stm32f10x_adc.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="8305" selectionTopPixel="2490"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_dma.c" partName="i2c_dma.c" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - i2c/i2c_dma.c" title="i2c_dma.c" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - i2c/i2c_dma.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/src/i2c_dma.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20025" selectionTopPixel="7995"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="dht22.h" partName="dht22.h" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - dht22/dht22.h" title="dht22.h" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/sensor - dht22/dht22.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/inc/dht22.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="150" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="261" selectionTopPixel="148"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="mytime.c" partName="mytime.c" path="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/mytime.c" title="mytime.c" tooltip="D:/belajar/gemastik/gemastik 8/piranti cerdas/All about stm32f1 mini/project/memce2-mikon/mytime.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/memce2-aws/stm_lib/src/mytime.c"/>
@@ -88,7 +83,7 @@
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="36">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="23">
 <expanded>
 <element path="/memce2-aws"/>
 <element path="/memce2-aws/cmsis"/>
@@ -102,7 +97,7 @@
 <element path="/memce2-aws/syscalls"/>
 </expanded>
 <selection>
-<element path="/memce2-aws/stm_lib/src/dht22.c"/>
+<element path="/memce2-aws/stm_lib/inc/sim900a.h"/>
 </selection>
 </viewState>
 </view>
@@ -260,50 +255,35 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@c2d74c">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@c2d74c">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c2d74c">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c2d74c">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10d063c" ratio="0.7" ratioLeft="441" ratioRight="189" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c2d74c">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10d063c" ratio="0.7" ratioLeft="441" ratioRight="189" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c2d74c">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@146d7a" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.ui.internal.ViewStack@10d063c">
-<folder activePageID="org.coocox.codebugger.trace.ui.traceview" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@146d7a" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.ui.internal.ViewStack@10d063c">&#x0A;<folder activePageID="org.coocox.codebugger.trace.ui.traceview" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11f9e12" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c2d74c">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11f9e12" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c2d74c">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -319,164 +299,160 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/timer.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/sim900a.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/inc/sim900a.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/inc/dht22.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/mytime.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/utils.c"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/dht22.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/stm_lib/src/bmp180.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/memce2-aws/cmsis/core_cm3.h"/>
 </editors>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="1791" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="1791" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3913" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="1781" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3085" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="1766" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3085" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3138" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3168" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="sim900a.c" index="1">
 <position/>
 </item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="1800" y="12"/>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2395" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2963" y="0"/>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3904" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2963" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3845" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2676" y="0"/>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2395" y="0"/>
 </item>
 <item historyLabel="dht22.h" index="3">
-<position info="not_deleted" x="150" y="0"/>
+<position info="not_deleted" x="261" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2442" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="190" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3943" y="3"/>
+<position info="not_deleted" x="3965" y="0"/>
 </item>
-<item historyLabel="mytime.c" index="4">
-<position info="not_deleted" x="551" y="2"/>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="190" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3943" y="3"/>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="320" y="0"/>
 </item>
-<item historyLabel="mytime.c" index="4">
-<position info="not_deleted" x="551" y="2"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3958" y="0"/>
-</item>
-<item historyLabel="utils.c" index="5">
-<position info="not_deleted" x="1041" y="15"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3973" y="0"/>
-</item>
-<item historyLabel="mytime.c" index="4">
-<position info="not_deleted" x="583" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1940" y="0"/>
-</item>
-<item historyLabel="Repository" index="6"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1722" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="core_cm3.h" index="4">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="320" y="0"/>
 </item>
-<item historyLabel="dht22.c" index="7">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="3011" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3143" y="0"/>
+<position info="not_deleted" x="3965" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="1937" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2240" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2236" y="4"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="core_cm3.h" index="4">
+<position info="not_deleted" x="89995" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2108" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2108" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2519" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="2449" y="16"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="6913" y="25"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
+<position info="not_deleted" x="2663" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="7511" y="16"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2715" y="0"/>
+<position info="not_deleted" x="3915" y="0"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="7506" y="21"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="7842" y="20"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="7842" y="20"/>
+</item>
+<item historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
+<position info="not_deleted" x="2675" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3151" y="0"/>
+<item historyLabel="sim900a.c" index="1">
+<position info="not_deleted" x="7723" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2495" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3143" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3302" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3628" y="0"/>
-</item>
-<item historyLabel="bmp180.c" index="8">
-<position info="not_deleted" x="3336" y="12"/>
-</item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="3628" y="0"/>
+<item active="true" historyLabel="sim900a.h" index="2">
+<position info="not_deleted" x="737" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -485,12 +461,35 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm3.h" tooltip="memce2-aws/cmsis/core_cm3.h">
+<persistable path="/memce2-aws/cmsis/core_cm3.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" tooltip="usart/cmsis_boot/startup/startup_stm32f10x_md.c">
+<persistable path="/usart/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm3.h" tooltip="usart/cmsis/core_cm3.h">
+<persistable path="/usart/cmsis/core_cm3.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="usart/cmsis_boot/stm32f10x.h">
+<persistable path="/usart/cmsis_boot/stm32f10x.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_usart.c" tooltip="usart/stm_lib/src/stm32f10x_usart.c">
+<persistable path="/usart/stm_lib/src/stm32f10x_usart.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_usart.h" tooltip="usart/stm_lib/inc/stm32f10x_usart.h">
+<persistable path="/usart/stm_lib/inc/stm32f10x_usart.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.h" tooltip="usart/stm_lib/inc/usart.h">
+<persistable path="/usart/stm_lib/inc/usart.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="usart/stm_lib/src/stm32f10x_gpio.c">
+<persistable path="/usart/stm_lib/src/stm32f10x_gpio.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dht22.c" tooltip="memce2-aws/stm_lib/src/dht22.c">
 <persistable path="/memce2-aws/stm_lib/src/dht22.c"/>
 </file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>
-<subPage/>
+<persistable>&#x0A;<subPage/>
 </persistable>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="utils.c" tooltip="memce2-aws/stm_lib/src/utils.c">
@@ -507,27 +506,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_dma.c" tooltip="memce2-aws/stm_lib/src/i2c_dma.c">
 <persistable path="/memce2-aws/stm_lib/src/i2c_dma.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="dht/stm_lib/src/stm32f10x_gpio.c">
-<persistable path="/dht/stm_lib/src/stm32f10x_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" tooltip="dht/cmsis_boot/startup/startup_stm32f10x_md.c">
-<persistable path="/dht/cmsis_boot/startup/startup_stm32f10x_md.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/stdio/printf.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/stdio/printf.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="dht/cmsis_boot/stm32f10x.h">
-<persistable path="/dht/cmsis_boot/stm32f10x.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.c" tooltip="dht/stm_lib/src/stm32f10x_rcc.c">
-<persistable path="/dht/stm_lib/src/stm32f10x_rcc.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.h" tooltip="dht/stm_lib/inc/stm32f10x_rcc.h">
-<persistable path="/dht/stm_lib/inc/stm32f10x_rcc.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="dht/stm_lib/inc/stm32f10x_gpio.h">
-<persistable path="/dht/stm_lib/inc/stm32f10x_gpio.h"/>
 </file>
 </mruList>
 </workbench>

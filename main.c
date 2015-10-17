@@ -101,17 +101,11 @@ int main(void)
 
     while(1)
     {
-
-    	i = read_adc(ADC_Channel_5); //malem > 3490
-    	printf("%d\n", i);
-    	for (i = 0; i < 999999; i++);
     	if (menit >= 1) {
     	    //do something...
-    	     	//collect data & send, abis itu baru menit = 0
-    	        	//collectAndSend();
-    		printf("kepanggil\n\r");
+    	    //collect data & send, abis itu baru menit = 0
 
-    		//collectAndSend();
+    		collectAndSend();
     		detik = 0;
     	    menit = 0;
     	}
